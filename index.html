@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamng Solan | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Tamng Solan home">
+        <span class="brand-mark">TS</span>
+        <span>Tamng Solan</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <span class="theme-icon" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Frontend Developer Portfolio</p>
+          <h1>Tamng Solan</h1>
+          <p class="hero-text">
+            A KDU Global student from Nepal building responsive, accessible,
+            and polished web experiences with HTML, CSS, and JavaScript.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="btn primary" href="#projects">View Work</a>
+            <a class="btn secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Student profile summary">
+          <div class="portrait">
+            <div class="portrait-sun"></div>
+            <div class="portrait-mountain mountain-one"></div>
+            <div class="portrait-mountain mountain-two"></div>
+            <span>TS</span>
+          </div>
+
+          <dl class="profile-list">
+            <div>
+              <dt>Student ID</dt>
+              <dd>2417131</dd>
+            </div>
+            <div>
+              <dt>University</dt>
+              <dd>KDU Global</dd>
+            </div>
+            <div>
+              <dt>Country</dt>
+              <dd>Nepal</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Frontend Development</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Student with a practical frontend mindset.</h2>
+        </div>
+        <p>
+          Tamng Solan is developing strong web fundamentals through modern
+          frontend practice. The portfolio focuses on clear layouts, fast user
+          interactions, readable code, and designs that work smoothly across
+          laptop and mobile screens.
+        </p>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skill Set</p>
+          <h2>Core frontend tools.</h2>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>HTML</h3>
+            <p>Semantic structure, clean page hierarchy, and accessible content.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>CSS</h3>
+            <p>Responsive layouts, visual styling, animations, and reusable patterns.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Interactive UI behavior, DOM updates, and small application features.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Practice work for real frontend habits.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one" aria-hidden="true"></div>
+            <h3>Student Dashboard</h3>
+            <p>
+              A compact academic dashboard concept with profile stats, course
+              cards, and responsive table sections.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two" aria-hidden="true"></div>
+            <h3>Nepal Travel Page</h3>
+            <p>
+              A landing page layout inspired by Nepal, using strong imagery,
+              balanced spacing, and mobile-first sections.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three" aria-hidden="true"></div>
+            <h3>Portfolio UI Kit</h3>
+            <p>
+              A reusable set of buttons, cards, profile blocks, and contact
+              sections built with HTML, CSS, and JavaScript.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to build clean web interfaces.</h2>
+        </div>
+        <a class="btn primary" href="mailto:tamng.solan@example.com">
+          tamng.solan@example.com
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Tamng Solan. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
